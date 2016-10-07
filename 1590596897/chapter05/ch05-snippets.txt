@@ -1,0 +1,134 @@
+Page 80
+
+#f00 /* #rgb */ 
+#ff0000 /* #rrggbb */ 
+red /* common English name */ 
+rgb(255,0,0) /* integer range 0 - 255 */ 
+rgb(100%, 0%, 0%) /* float range 0.0% - 100.0% */
+
+Page 84
+
+p { 
+  color: #F00 
+}
+
+Page 84
+
+p { 
+  color: red 
+}
+
+Page 85
+
+p { 
+  color:#000; 
+  background-color:#ff0; 
+  line-height:150% 
+} 
+
+Page 85
+
+/* Define basic paragraph style */ 
+  p { 
+    color:#000; 
+    line-height:150% 
+  } 
+/* Highlight class to pick out key words or phrases */ 
+  .highlight { 
+    background-color:#ff0; 
+  }
+
+Page 86
+
+<p>Useful. OK. Did you know that a shrimp's <span class="highlight">heart</span> is actually <span class="highlight">in its head</span>? It's true.</p> 
+
+Page 86
+
+h2 { 
+  color:#000; 
+  background-color:#808080; 
+  padding:0.3em; 
+  }
+
+Page 87
+
+/* Specify blanket rules for all elements */ 
+  body { 
+    margin:10px; 
+    padding:10px; 
+    background-color:#CCC; 
+    font:normal 12px Verdana, Arial, Sans-serif; 
+  } 
+
+Page 88
+
+<body> 
+  <div id="container"> 
+    <h1>Content is King</h1> 
+      <p>This is a paragraph. Nothing particularly special about it, but the visitor is going to read it anyway, so it may as well say something useful.</p> 
+    <h2>True Fact</h2> 
+      <p>Useful. OK. Did you know that a shrimp's <span class="highlight">heart</span> is actually <span class="highlight">in its head</span>? It's true.</p> 
+  </div> 
+</body>
+
+Page 88
+
+/* Container for all page content */ 
+  #container { 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#FFF; 
+  }
+
+Page 89
+
+/* Declare all shared properties for headings */ 
+  h1, h2 { 
+    color:#000; 
+    background-color:#808080; 
+    padding:5px; 
+  }
+
+Page 96
+
+/* Container for all page content */ 
+  #container { 
+    height:200px; 
+    border:1px solid #000; 
+    background-color:#FFF; 
+    background-image:url(tile.gif); 
+  } 
+
+Page 97
+
+/* Container for all page content */ 
+  #container { 
+    height:200px; 
+    border:1px solid #000; 
+    background-color:#FFF; 
+    background-image:url(tile.gif); 
+    background-repeat:no-repeat; 
+  } 
+
+Page 98
+
+/* Container for all page content */ 
+  #container { 
+    height:200px; 
+    border:1px solid #000; 
+    background-color:#FFF; 
+    background-image:url(tile.gif); 
+    background-repeat:repeat-y; 
+  }
+
+Page 101
+
+background:#FFF url(tile.gif); 
+
+Page 101
+
+background:#FFF url(tile.gif) right top; 
+
+Page 102
+
+background:#FFF url(tile.gif) right top no-repeat; 

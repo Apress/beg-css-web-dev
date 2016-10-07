@@ -1,0 +1,139 @@
+Page 317
+
+body { 
+  color: orange; 
+  background: black; 
+  } 
+
+Page 317
+
+p { 
+ font-size:40pt !important; 
+   } 
+
+Page 318
+
+body { 
+  color: black ! important ; 
+  background: white ! important ; 
+    } 
+* { 
+  color: inherit ! important ; 
+  background: inherit ! important ; 
+    } 
+
+Page 319
+
+<abbr title="Regional Action West Midlands">RAWM</abbr> 
+
+Page 319
+
+/* Style acronymns and abbreviations and change cursor */ 
+  abbr, acronym { 
+    border-bottom:1px dotted #666; 
+    cursor:help; 
+    } 
+
+Page 321
+
+<link rel="stylesheet" media="screen" type="text/css" href="screen.css" /> 
+<link rel="stylesheet" media="print" type="text/css" href="print.css" /> 
+
+Page 322
+
+body { 
+  background-color:#fff; 
+  color:#000; 
+  margin:0; 
+  padding:40px; 
+  font: normal 14pt/160% verdana,arial,sans-serif; 
+  } 
+
+page 322
+
+/* Hide the following items */ 
+  #sidebar_a, #sidebar_b, #footer  { 
+    display:none; 
+    } 
+
+Page 323
+
+h2, h3, h4 { 
+  font-family:Arial,Verdana,sans-serif; 
+  font-weight:normal; 
+  line-height:135%; 
+  color:#000; 
+  } 
+h2 { 
+  font-size:22pt; 
+  } 
+h3 { 
+  font-size:18pt; 
+  } 
+h4 { 
+  font-size:16pt; 
+  } 
+h4 a:link, h4 a:visited { 
+  color:#000; 
+  text-decoration:none; 
+  } 
+
+Page 323
+
+/* Links black */ 
+  a:link, a:visited, a:active { 
+    color:#000; 
+    text-decoration:none; 
+        } 
+
+Page 324
+
+/* Show URLs only inside the article container */ 
+  #main a:after { 
+   content: " (" attr(href) ")"; 
+    font-size:11pt; 
+    }
+
+Page 325
+
+<link rel="stylesheet" media="screen" type="text/css" href="screen.css" /> 
+<link rel="stylesheet" media="print" type="text/css" href="print.css" /> 
+<link rel="stylesheet" media="handheld" type="text/css" href="mobile.css" />
+
+Page 325
+
+/* Remove all default margins and padding */ 
+  div { 
+    margin:0; 
+    padding:0; 
+    } 
+
+Page 326
+
+#header { 
+  width:100%; 
+  height:20px; 
+  background:transparent url(/images/mobile.jpg) no-repeat; 
+    } 
+
+Page 326
+
+<li><a href="#content" title="Skip to article">Skip to content</a></li>
+
+Page 326
+
+<li><a href="#navigation" title="Jump to top of page">Back to top</a></li>
+
+Page 326
+
+#main img { 
+  display:none; 
+  } 
+
+Page 327
+
+/* Remove unwanted columns */ 
+  #sidebar { 
+    display:none; 
+    } 
+

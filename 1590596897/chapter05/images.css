@@ -1,0 +1,11 @@
+/* Specify blanket rules for all elements */ 
+  body { 
+    margin: 10px; 
+    background-color:#CCC; 
+  } 
+/* Container for all page content */ 
+  #container { 
+    height:200px; 
+    border:1px solid #000; 
+    background-color:#FFF; 
+  }

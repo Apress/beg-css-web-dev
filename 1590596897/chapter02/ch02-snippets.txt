@@ -1,0 +1,335 @@
+Page 17
+
+p {color: #F00;}
+
+Page 18
+
+<p id="highlight">This paragraph has red text.</p> 
+<p id="default">This paragraph has dark gray text.</p>
+
+Page 18
+
+/* Define highlighted text */ 
+#highlight { 
+color: #F00; 
+} 
+/* Define default text */ 
+#default { 
+color #333; 
+}
+
+Page 18
+
+/* Basic heading style */ 
+h2 { 
+color: #333; 
+font-size: 16px; 
+}
+
+Page 19
+
+/* Adjust the color of h2 when used as a title */ 
+h2#title { 
+color: #F00; 
+}
+
+Page 19
+
+<h2 id="title">Title Of My Article</h2> 
+
+Page 19
+
+<p class="highlight">This paragraph has red text.</p> 
+<p class="default">This paragraph has dark gray text.</p> 
+<p class="default">This paragraph also has dark gray text.</p>
+
+Page 20
+
+/* Define highlight class */ 
+.highlight { 
+color: #F00; 
+} 
+/* Define default class */ 
+.default { 
+color #333; 
+}
+
+Page 20
+
+<ul id="drinks"> 
+<li class="alcohol">Beer</li> 
+ <li class="alcohol">Spirits</li> 
+ <li class="mixer">Cola</li> 
+ <li class="mixer">Lemonade</li> 
+ <li class="hot">Tea</li> 
+ <li class="hot">Coffee</li> 
+</ul>
+
+Page 20
+
+/* Drinks list styling */ 
+ul#drinks { 
+color: #F00; 
+} 
+
+Page 20/21
+
+/* Define alcohol color */
+.alcohol { 
+color: #333; 
+} 
+/* Define mixer color */
+.mixer { 
+color: #999; 
+} 
+/* Define hot drinks color */ 
+.hot { 
+color #CCC; 
+}
+
+Page 21
+
+/* Default styling for paragraphs */ 
+p { 
+color: #F00; 
+font-size: 12px;} 
+/* Use this style to turn anything light gray */ 
+.bleached { 
+color: #CCC; 
+}
+
+Page 21
+
+<p>This paragraph has red text.</p> 
+<p class="bleached">This paragraph has light gray text.</p> 
+
+Page 22
+
+/* Use this style to turn anything light gray */.bleached { 
+color: #CCC; 
+} 
+/* Override the color of bleached when it identifies a paragraph */ 
+p.bleached { 
+color: #000; 
+} 
+
+Page 24
+
+<link rel="stylesheet" media="screen" type="text/css" href="css/screen/one.css" /> 
+<link rel="stylesheet" media="screen" type="text/css" href="css/screen/two.css" /> 
+<link rel="stylesheet" media="screen" type="text/css" href="css/screen/three.css" /> 
+
+Page 24
+
+@import url("default.css"); 
+@import url("layout.css"); 
+@import url("navigation.css"); 
+@import url("forms.css");
+
+Page 25
+
+/* Highlight important form information */ 
+highlight { 
+color:  F00; 
+font-style: italic; 
+text-decoration: underline; 
+} 
+
+Page 25
+
+/* Highlight author's name underneath articles */ 
+.highlight { 
+color:  F00; 
+font-style: normal; 
+} 
+
+Page 26
+
+/* Heading styles */ 
+h1 { 
+font-family: Helvetica, Arial, sans-serif; 
+line-height: 140%; 
+color: #333; 
+} 
+h2 { 
+font-family: Helvetica, Arial, sans-serif; 
+line-height: 140%; 
+color: #333; 
+} 
+h3 { 
+font-family: Helvetica, Arial, sans-serif; 
+line-height: 140%; 
+color: #333; 
+} 
+
+Page 26
+
+/* Heading styles */ 
+h1, h2, h3 { 
+font-family: Helvetica, Arial, sans-serif; 
+line-height: 140%; 
+color: #333; 
+} 
+
+Page 27
+
+/* Heading styles */ 
+h1, h2, h3 { 
+font-family: Helvetica, Arial, sans-serif; 
+line-height: 140%; 
+color: #333; 
+} 
+/* Additionally, render all h1 headings in italics */ 
+h1 { 
+font-style: italic; 
+} 
+
+Page 27
+
+ /* Top-level heading */ 
+h1 { 
+color: #333; 
+}
+
+Page 28
+
+<h1>This is the greatest heading <em>in the world</em></h1> 
+
+Page 28
+
+/* Make emphasized text shine brightly */ 
+em { 
+color: #F00; 
+}
+
+Page 28
+
+<body> 
+<h1>Absolutely everything else!</h1> 
+<p>Yep, every visible element is contained within the body.</p> 
+<p>And so on.</p> 
+</body>
+
+Page 28
+
+/* Define all main values for the web site */ 
+body { 
+margin: 10px; 
+font-family: Helvetica, Arial, sans-serif; 
+background: #CCC; 
+color: #000; 
+} 
+
+Page 29
+
+<ul> 
+<li>Top level one</li> 
+<li>Top level two 
+ <ul> 
+ <li>Second level one</li> 
+ <li>Second level two 
+  <ul> 
+  <li>Third level one</li> 
+  <li>Third level two</li> 
+  </ul> 
+ </li> 
+ <li>Second level three</li> 
+ </ul> 
+</li> 
+<li>Top level three</li> 
+</ul>
+
+Page 29
+
+/* Font size for list elements */ 
+li { 
+font-size:2em; 
+} 
+
+Page 30
+
+ /* Top-level heading */ 
+h1 { 
+color: #333; 
+} 
+/* Make emphasized text shine brightly */ 
+em { 
+color: #F00; 
+}
+
+Page 30
+
+/* Make emphasized text shine brightly ONLY when it's the child of an h1 heading */ 
+h1 em { 
+color: #F00; 
+} 
+
+Page 31
+
+<h1>This is the greatest heading <em>in the world</em></h1> 
+ <p>I'm sorry but it simply is <em>not</em>, you fool.</p> 
+
+Page 33
+
+/* Define default paragraph values */ 
+p { 
+font-size: 10px; 
+line-height: 120%; 
+} 
+
+Page 34
+
+/* First container for the em example */ 
+#firstbox { 
+margin:10px; 
+font-size: 11px; 
+width: 1em; 
+height: 1em; 
+border:1px solid black; 
+} 
+/* Second container for the em example */ 
+#secondbox { 
+margin:10px; 
+font-size: 30px; 
+width: 1em; 
+height: 1em; 
+border: 1px solid black; 
+}
+
+Page 36
+
+/* Define all main values for the web site */ 
+body { 
+font-family: Helvetica, Arial, sans-serif; 
+font-size: 0.7em; 
+color: #000; 
+}
+
+Page 36
+
+/* Define all main values for the web site */ 
+body { 
+font-family: Helvetica, Arial, sans-serif; 
+font-size: 0.8em; 
+color: #000; 
+} 
+/* Define paragraph text size */ 
+p { 
+font-size: 1.1em; 
+} 
+/* Define headings font sizes */ 
+h1 { 
+font-size: 2em; 
+} 
+h2 { 
+font-size: 1.8em; 
+} 
+h3 { 
+font-size: 1.7em; 
+} 
+... 
+/* Define form and table font-size */ 
+input, select, th, td { 
+font-size: 1.1em; 
+}
+

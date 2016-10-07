@@ -1,0 +1,313 @@
+Page 277
+
+<html> 
+  <head> 
+    <title>Chapter 12: Layout Manipulation</title> 
+    <link rel='stylesheet' media="screen" type='text/css' href='switch.css' /> 
+  </head> 
+  <body> 
+    <div id="masthead"> 
+      <h1>Masthead</h1> 
+    </div> 
+    <div id="sidebar_a"> 
+      <h3>Sidebar A One</h3> 
+        <ul> 
+          <li>Item One</li> 
+          <li>Item Two</li> 
+          <li>Item Three</li> 
+          <li>Item Four</li> 
+          <li>Item Five</li> 
+        </ul> 
+    </div> 
+    <div id="sidebar_b"> 
+      <h3>Sidebar B One</h3> 
+        <ul> 
+          <li>Item One</li> 
+          <li>Item Two</li> 
+          <li>Item Three</li> 
+          <li>Item Four</li> 
+          <li>Item Five</li> 
+        </ul> 
+    </div> 
+    <div id="content"> 
+      <h2>Content</h2> 
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas tempus nunc➥ posuere turpis. Praesent porta. Nulla turpis leo, eleifendut, varius sit amet, dignissim non, mi.</p> 
+        <p>Aenean nec est. Nunc auctor purus tempor justo. Aenean ultrices. Nam urnami, ultricies at, commodo ac, rutrum ac, arcu. Cras eget mauris eget nibh tincidunt auctor.</p> 
+        <p>Fusce quam mauris, fermentum id, molestie vitae, convallis sit amet, magna. Duis sed lacus sit amet purus pretium varius. Suspendisse luctus hendrerit turpis.</p> 
+    </div> 
+	    <div id="footer"> 
+	      <p>Footer</p> 
+	    </div> 
+	  </body> 
+	</html> 
+
+Page 277/278/279
+
+/* Specify blanket rules for all elements */ 
+  body { 
+    width:760px; 
+    font-size:80%; 
+    font-family:'Lucida Grande',Verdana,sans-serif; 
+    margin: 10px; 
+    } 
+/* Rules for headings */ 
+  h1 { 
+    font-size:150%; 
+    } 
+  h2 { 
+    font-size:140%; 
+    } 
+  h3 { 
+    font-size:120%; 
+    } 
+  p { 
+    font-size:100%; 
+    line-height:150%; 
+    } 
+/* Masthead */ 
+  #masthead { 
+    margin:0 0 10px 0; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    width:760px; 
+    voice-family:"\"}\""; 
+    voice-family:inherit; 
+    width:738px; 
+    } 
+  html>body #masthead { 
+    width:738px; 
+    } 
+	/* Content */ 
+	  #content { 
+	    margin-left:200px; 
+	    margin-right:200px; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    width:360px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:338px; 
+	    } 
+	  html>body #content { 
+	    width:338px; 
+	    } 
+	/* Sidebar A */ 
+	  #sidebar_a { 
+	    float:left; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    width:180px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:158px; 
+	    } 
+	  html>body #sidebar_a { 
+	    width:158px; 
+	    } 
+	/* Sidebar B */ 
+	  #sidebar_b { 
+	    float:right; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    width:180px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:158px; 
+	    } 
+	  html>body #sidebar_b { 
+	    width:158px; 
+	    } 
+	/* Footer */ 
+	  #footer { 
+	    clear:both; 
+	    margin:10px 0 0 0;
+	    padding:10px; 
+	    border:1px solid #000; 
+	    background-color:#CCC; 
+	    width:760px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:738px; 
+	    } 
+	  html>body #footer { 
+	    width:738px;
+	}
+	
+	
+Page 280
+
+<body id="switch"> 
+	
+Page 280/281
+
+/* Sidebar A */ 
+  #sidebar_a { 
+    float:left; 
+    padding:10px; 
+    border:1px solid #000; 
+    width:180px; 
+    voice-family:"\"}\""; 
+    voice-family:inherit; 
+    width:158px; 
+    } 
+  html>body #sidebar_a { 
+    width:158px; 
+    } 
+/* Adjust sidebar_a in switch context */ 
+  #switch #sidebar_a { 
+    float:right; 
+    } 
+/* Sidebar B */ 
+  #sidebar_b { 
+    float:right; 
+    padding:10px; 
+    border:1px solid #000; 
+    width:180px; 
+    voice-family:"\"}\"";
+	    voice-family:inherit; 
+	    width:158px; 
+	    } 
+	  html>body #sidebar_b { 
+	    width:158px; 
+	    } 
+	/* Adjust sidebar_b in switch context */ 
+	  #switch #sidebar_b { 
+	    float:left; 
+	    } 
+
+Page 282
+
+<body id="twoCol"> 
+
+
+Page 282
+
+/* Content */ 
+  #content { 
+    margin-left:200px; 
+    margin-right:200px; 
+    padding:10px; 
+    border:1px solid #000; 
+    width:360px; 
+    voice-family:"\"}\""; 
+    voice-family:inherit; 
+    width:338px; 
+    } 
+  html>body #content { 
+    width:338px; 
+    } 
+/* Adjust content in twoCol context */ 
+  #twoCol #content { 
+    margin-right:0; 
+    width:540px; 
+    voice-family:"\"}\""; 
+    voice-family:inherit; 
+    width:536px; 
+    } 
+  html>body #twoCol #content { 
+    width:536px; 
+    } 
+
+Page 283
+
+/* Sidebar B */ 
+  #sidebar_b { 
+    float:right; 
+    padding:10px; 
+    border:1px solid #000; 
+    width:180px; 
+    voice-family:"\"}\""; 
+    voice-family:inherit; 
+    width:158px; 
+    } 
+  html>body #sidebar_b { 
+    width:158px; 
+    } 
+/* Adjust sidebar_b in switch context */ 
+  #switch #sidebar_b { 
+    float:left; 
+    } 
+/* Adjust sidebar_b in twoCol context */ 
+  #twoCol #sidebar_b { 
+    display:none; 
+    }
+
+Page 285/286
+
+/* Content */ 
+  #content { 
+    margin-left:200px; 
+    margin-right:0; 
+    background-color:#CCC; 
+    width:540px; 
+    voice-family:"\"}\""; 
+    voice-family:inherit; 
+    width:540px; 
+    } 
+  html>body #content { 
+    width:540px; 
+    } 
+	/* Sidebar A */ 
+	  #sidebar_a { 
+	    float:left; 
+	    padding:10px; 
+	    background-color:#999; 
+	    width:180px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:160px; 
+	    } 
+	  html>body #sidebar_a { 
+	    width:160px; 
+	    } 
+
+Page 287
+
+<div id="container"> 
+  <div id="sidebar_a"> 
+    <h3>Sidebar A One</h3> 
+      ...sidebar content goes here... 
+  </div> 
+  <div id="content"> 
+    <h2>Content</h2> 
+      ...main content goes here... 
+  </div> 
+</div>
+
+Page 287
+
+/* Container that holds all columns */ 
+  #container { 
+    background:url(/images/faux.gif) repeat-y; 
+    }
+
+Page 287/288
+
+/* Content */ 
+  #content { 
+    margin-left:200px; 
+    margin-right:0; 
+    padding:10px; 
+    width:540px; 
+    voice-family:"\"}\""; 
+    voice-family:inherit; 
+    width:540px; 
+    } 
+	  html>body #content { 
+	    width:540px; 
+	    } 
+	/* Sidebar A */ 
+	  #sidebar_a { 
+	    float:left; 
+	    padding:10px; 
+	    width:180px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:160px; 
+	    } 
+	  html>body #sidebar_a { 
+	    width:160px; 
+	    }
+	
+	

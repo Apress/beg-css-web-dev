@@ -1,0 +1,4 @@
+/* Styles for all default lists */ 
+  ul { 
+    list-style-type:circle; 
+  }

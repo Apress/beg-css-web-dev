@@ -1,0 +1,27 @@
+/* Specify blanket rules for all elements */ 
+body { 
+font-size:80%; 
+font-family:'Lucida Grande',Verdana,sans-serif; 
+margin:10px; 
+background-color:#CCC; 
+} 
+/* Container for all page content */ 
+#container { 
+padding:10px; 
+border:1px solid #000; 
+background-color:#FFF; 
+} 
+/* Rules for headings */ 
+h1 { 
+font-size:150%; 
+} 
+h2 { 
+font-size:140%; 
+} 
+h3 { 
+font-size:120%; 
+} 
+p { 
+font-size:100%; 
+line-height:150%; 
+}

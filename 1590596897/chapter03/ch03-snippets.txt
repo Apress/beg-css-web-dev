@@ -1,0 +1,286 @@
+Page 39
+
+<div> 
+  <p>This is our content area.</p> 
+</div> 
+
+Page 40
+
+<div id="container"> 
+ <p>This is our content area.</p> 
+</div>
+
+Page 40
+
+/* Container holds all visible page elements */ 
+  #container { 
+  padding: 20px; 
+  border: 1px solid #000; 
+  background: #CCC; 
+  }
+
+Page 40
+
+<div id="container"> 
+ <p>This is our content area.</p> 
+  <div class="box"> 
+   <p>I'm in a box!</p> 
+  </div> 
+  <div class="box"> 
+   <p>I'm also in a box!</p> 
+  </div> 
+</div>
+
+Page 41
+
+/* Define styling of our reusable box */ 
+ .box { 
+  margin: 10px; 
+  padding: 20px; 
+  border: 1px solid #000; 
+  }
+
+Page 42
+
+/* Make text red */ 
+ .highlight { 
+  color: #F00; 
+  } 
+
+Page 42
+
+<div id="container"> 
+ <p>This is our content area.</p> 
+  <div class="box"> 
+   <p class="highlight">I'm in a box!</p> 
+  </div> 
+  <div class="box"> 
+   <p class="highlight">I'm also in a box!</p> 
+  </div> 
+</div>
+
+Page 42
+
+/* Make text red only for paragraphs within the box class */ 
+ .box p { 
+  color: #F00; 
+  } 
+
+Page 43
+
+/* Make text gray only for paragraphs within the container */ 
+#container p { 
+  color: #333; 
+  } 
+
+Page 43
+
+<div id="container"> 
+ Content 
+  <div class="box"> 
+   <p>I'm in a box!</p> 
+  </div> 
+  <div class="box"> 
+   <p>I'm also in a box!</p> 
+  </div> 
+</div> 
+<div class="box"> 
+ <p>I'm also in a box!</p> 
+</div>
+
+Page 43
+
+/* Make text bold only for paragraphs within the box class AND within the ➥ 
+container */ 
+#container .box p { 
+  font-weight:bold; 
+  } 
+
+Page 45
+
+/* Basic container */ 
+ #container { 
+    width:300px; 
+  border: 1px solid #000; 
+  padding: 20px; 
+  background: #CCC; 
+  }
+
+Page 46
+
+/* Basic container */ 
+ #container { 
+    width:300px; 
+  margin-top: 20px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-bottom: 1em; 
+  border: 1px solid #000; 
+  padding: 20px; 
+  background: #CCC; 
+  }
+
+Page 46
+
+/* Basic container */ 
+ #container { 
+  margin: 20px auto 1em auto; 
+  } 
+
+Page 47
+
+/* Basic container */ 
+ #container { 
+  margin: 20px; 
+  }
+
+Page 47
+
+/* Container for centering all our content */ 
+ #container { 
+  width: 400px; 
+  margin: 10px auto 10px auto; 
+  padding: 20px; 
+  border: 1px solid #000; 
+  background: #CCC; 
+  } 
+
+Page 47
+
+/* Define default values for the whole site */ 
+ body { 
+  text-align: center; 
+  } 
+/* Container for centering all our content */ 
+ #container { 
+  width: 400px; 
+  margin: 10px auto 10px auto; 
+  padding: 20px; border: 1px solid #000; 
+  background: #CCC; 
+  text-align: left; 
+  }
+
+Page 48
+
+/* Basic container */ 
+ #container { 
+    width:300px; 
+  margin-top: 20px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-bottom: 1em; 
+  border: 1px solid #000; 
+  padding-top: 20px; 
+  padding-left: 10%; 
+  padding-right: 1em; 
+  padding-bottom: 0; 
+    background: #CCC; 
+  }
+
+Page 49
+
+/* Basic container */ 
+ #container { 
+  padding: 20px 1em 0 10%; 
+  } 
+
+Page 49
+
+/* Basic container */ 
+ #container { 
+  padding: 20px; 
+  } 
+
+Page 49
+
+/* Define default values for the whole site */ 
+ body { 
+  margin: 0; 
+  padding: 0; 
+  } 
+
+Page 51
+
+/* Container for centering all our content */ 
+ #container { 
+    width: 400px; 
+  margin: 10px auto 10px auto; 
+  padding: 20px; 
+  border-style: dashed; 
+  }
+
+Page 51
+
+/* Container for centering all our content */ 
+ #container { 
+  width: 400px; 
+  margin: 10px auto 10px auto; 
+  padding: 20px; 
+  border-style: dashed dotted solid ridge; 
+  } 
+
+Page 52
+
+/* Container for centering all our content */ 
+ #container { 
+  width: 400px; 
+  margin: 10px auto 10px auto; 
+  padding: 20px; 
+  border-style: dashed dotted solid ridge; 
+  border-top-width: thin; 
+  border-right-width: 20px; 
+  border-bottom-width: medium; 
+  border-left-width: thick; 
+  } 
+
+Page 52
+
+/* Container for centering all our content */ 
+ #container { 
+  width: 400px; 
+  margin: 10px auto 10px auto; 
+  padding: 20px; 
+  border-style: dashed dotted solid ridge; 
+  border-top-width: thin; 
+  border-right-width: 20px; 
+  border-bottom-width: medium; 
+  border-left-width: thick; 
+  border-color: #000 #999 #333 #CCC; 
+  }
+
+Page 53
+
+/* Container for centering all our content */ 
+ #container { 
+  width: 400px; 
+  margin: 10px auto 10px auto; 
+  padding: 20px; 
+  border-top: #000 thin dashed; 
+  border-right: #999 20px dotted; 
+  border-bottom: #333 medium solid; 
+  border-left: #CCC thick ridge; 
+  } 
+
+Page 53
+
+/* Container for centering all our content */ 
+-#container { 
+  width: 400px; 
+  margin: 10px auto 10px auto; 
+  padding: 20px; 
+  border: #000 thin dashed; 
+  }
+
+Page 54
+
+/* Place a thin gray border around all divisions */ 
+  div { 
+    border: 1px dashed #CCC; 
+    }
+
+Page 54
+
+/* Place a thin gray border around the following elements */ 
+  div, h1, h2, h3, h4, ul { 
+    border: 1px dashed #CCC; 
+    }

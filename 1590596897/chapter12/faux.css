@@ -1,0 +1,90 @@
+/* Specify blanket rules for all elements */ 
+  body { 
+    width:760px; 
+    font-size:80%; 
+    font-family:'Lucida Grande',Verdana,sans-serif; 
+    margin: 10px; 
+    } 
+/* Rules for headings */ 
+  h1 { 
+    font-size:150%; 
+    } 
+  h2 { 
+    font-size:140%; 
+    } 
+  h3 { 
+    font-size:120%; 
+    } 
+  p { 
+    font-size:100%; 
+    line-height:150%; 
+    } 
+/* Masthead */ 
+  #masthead { 
+    margin:0 0 10px 0; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    width:760px; 
+    voice-family:"\"}\""; 
+    voice-family:inherit; 
+    width:738px; 
+    } 
+  html>body #masthead { 
+    width:738px; 
+    } 
+	/* Content */ 
+	  #content { 
+	    margin-left:200px; 
+	    margin-right:200px; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    width:360px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:338px; 
+	    } 
+	  html>body #content { 
+	    width:338px; 
+	    } 
+	/* Sidebar A */ 
+	  #sidebar_a { 
+	    float:left; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    width:180px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:158px; 
+	    } 
+	  html>body #sidebar_a { 
+	    width:158px; 
+	    } 
+	/* Sidebar B */ 
+	  #sidebar_b { 
+	    float:right; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    width:180px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:158px; 
+	    } 
+	  html>body #sidebar_b { 
+	    width:158px; 
+	    } 
+	/* Footer */ 
+	  #footer { 
+	    clear:both; 
+	    margin:10px 0 0 0;
+	    padding:10px; 
+	    border:1px solid #000; 
+	    background-color:#CCC; 
+	    width:760px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:738px; 
+	    } 
+	  html>body #footer { 
+	    width:738px;
+	}

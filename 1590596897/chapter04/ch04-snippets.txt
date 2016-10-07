@@ -1,0 +1,154 @@
+Page 60
+
+/* Specify blanket rules for all elements */ 
+ body { 
+  font-family:  "Lucida Grande", Arial, Sans-serif; 
+ } 
+
+Page 60
+
+/* Specify blanket rules for all elements */ 
+ body { 
+  font-family: "Lucida Grande", Arial, Sans-serif; 
+  font-size: 12px; 
+ } 
+
+Page 61
+
+/* Specify blanket rules for all elements */ 
+ body { 
+  font: 12px "Lucida Grande", Arial, Sans-serif; 
+ } 
+
+Page 67
+
+<head> 
+<title>Chapter 4: Text</title> 
+<link rel='stylesheet' media="screen" type='text/css' href='text.css' /> 
+</head>
+
+Page 69
+
+line-height:150%; 
+
+Page 69
+
+/* Specify blanket rules for all elements */ 
+ body { 
+  margin: 10px; 
+  border: 1px solid #000; 
+  padding:10px; 
+  font: 12px Verdana, Arial, Sans-serif; 
+  line-height:200%; 
+ } 
+
+Page 71
+
+/* Specify blanket rules for all elements */ 
+body { 
+  margin: 10px; 
+  border: 1px solid #000; 
+  padding:10px 
+  font: 12px Verdana, Arial, Sans-serif; 
+  line-height:150%; 
+ } 
+h1, h2 { 
+  letter-spacing:3px; 
+}
+
+Page 73
+
+/* Specify blanket rules for all elements */ 
+body { 
+  margin: 10px; 
+  border: 1px solid #000; 
+  padding:10px; 
+  font: normal 12px Verdana, Arial, Sans-serif; 
+  line-height:150%; 
+} 
+p { 
+  font-variant:small-caps 
+} 
+h1, h2 { 
+  letter-spacing:1px; 
+} 
+h1 { 
+  font-family: Georgia, Times, serif; 
+  text-transform:uppercase; 
+} 
+h2 { 
+  font-family: "Helvetica Neue", Arial, sans-serif; 
+  text-transform:none; 
+  font-style:italic; 
+}
+
+Page 74
+
+p { 
+  font-style:italic; 
+  font-variant:small-caps; 
+  font-weight:bold; 
+  font-size:12px; 
+  font-family:verdana,arial,sans-serif; 
+    line-height:150%; 
+}
+
+Page 74
+
+p { 
+  font: style variant weight size/line-height family 
+}
+
+Page 75
+
+p { 
+  font: italic small-caps bold 12px/150% verdana,arial,sans-serif 
+}
+
+Page 75
+
+<html> 
+ <head> 
+  <title>Chapter 4: Text</title> 
+ </head> 
+ <body> 
+  <h1>Content is King</h1> 
+  <p>This is a paragraph. Nothing particularly special about it, but the visitor is going to read it anyway, so it may as well say something useful.</p> 
+ <h2>True Fact</h2> 
+  <p>Useful. OK. Did you know that a shrimp's heart is actually in its head? It's true.</p> 
+  <blockquote>Collison stands by his statement that a shrimp's heart is actually in its bottom, and doggedly refuses to believe that he is 
+    wrong.</blockquote> 
+ </body> 
+</html>
+
+Page 76
+
+/* Style the blockquote */ 
+blockquote { 
+  margin: 0 0 0 20px; 
+  line-height:150%; 
+  font: italic 15px Georgia,Times,serif; 
+}
+
+Page 77
+
+/* paragraph styling */ 
+p { 
+  font: 12px verdana,arial,sans-serif; 
+  text-indent:15px; 
+}
+
+Page 77
+
+<h1>Content is King</h1> 
+  <p class="dropcap">This is a paragraph. Nothing particularly special about it, but the visitor is going to read it anyway, so it may as well say something useful.</p> 
+
+Page 78
+
+/* Create drop cap characters */ 
+p dropcap:first-letter { 
+  float: left; 
+  width: 40px; 
+  font: 60px "Lucida Grande",Arial,sans-serif; 
+  line-height: 50px; 
+}

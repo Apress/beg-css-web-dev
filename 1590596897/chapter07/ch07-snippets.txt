@@ -1,0 +1,178 @@
+Page 129
+
+<a href="http://www.google.com">Google</a> 
+
+Page 129
+
+<a href="http://www.google.com"><img src="images/google.gif" alt="Visit Google" /></a>
+
+Page 129
+
+<a href="http://www.google.com" title="Visit the best search engine in the world">Google</a>
+
+Page 131
+
+a:link { 
+  color:#F00; 
+  } 
+
+Page 132
+
+a:visited { 
+  color:#999; 
+  }
+
+Page 132
+
+a:hover { 
+  color:#333; 
+  } 
+
+Page 133
+
+a:active { 
+  color: #000; 
+  } 
+
+Page 133
+
+a:link { 
+  color:#F00; 
+  } 
+a:visited { 
+  color:#999; 
+  } 
+a:hover { 
+  color:#333; 
+  } 
+a:active { 
+  color:#000; 
+  } 
+
+Page 134
+
+a:hover { 
+  color:#333; 
+  text-decoration:none; 
+  }
+
+Page 134
+
+a:link { 
+  color:#F00; 
+  text-decoration:none; 
+  border-bottom:1px dashed #333; 
+  line-height:150%; 
+  } 
+
+Page 135
+
+a:link { 
+  color:#F00; 
+  text-decoration:none; 
+  border:1px solid #333; 
+  background:#CCC; 
+  padding:2px; 
+  line-height:150%; 
+  } 
+
+Page 136
+
+a:link { 
+  color:#F00; 
+  padding:0 15px 0 0; 
+  background:url(images/arrow.gif) no-repeat right center; 
+  } 
+a:visited { 
+  color:#999; 
+  padding:0 15px 0 0; 
+  background:url(images/checkmark.gif) no-repeat right center; 
+  } 
+
+Page 137
+
+a:link { 
+  color:#F00; 
+  } 
+a:visited { 
+  color:#999; 
+  } 
+a:hover { 
+  color:#333; 
+  text-decoration:none; 
+  } 
+a:active { 
+  Color: #000; 
+  }
+
+Page 138
+
+p a:link, p a:visited, p a:hover, p a:active { 
+  color:#F00; 
+  padding:2px; 
+  border:1px dashed #999; 
+  text-decoration:none; 
+  }
+
+Page 138
+
+ul a:link { 
+  color:#F00; 
+  padding:0 15px 0 0; 
+  background:url(images/arrow.gif) no-repeat right center; 
+  } 
+ul a:visited { 
+  color:#999; 
+  padding:0 15px 0 0; 
+  background:url(images/checkmark.gif) no-repeat right center; 
+  } 
+
+Page 140
+
+ul a:link, ul a:visited, ul a:hover, ul a:active { 
+  display:block; 
+  padding: 2px 10px; 
+  text-decoration:none; 
+  }
+
+Page 141
+
+ul a:link { 
+  color:#000; 
+  } 
+ul a:visited { 
+  color:#666; 
+  } 
+ul a:hover { 
+  color:#F00; 
+  } 
+ul a:active { 
+  color:#333; 
+  }
+
+Page 142
+
+ul a:hover { 
+  color:#F00; 
+  background:#FFF; 
+  }
+
+Page 143
+
+<ul> 
+  <li><a href="#">Beer</a></li> 
+  <li><a href="#">Spirits</a></li> 
+  <li><a href="#">Cola</a></li> 
+  <li id="current"><a href="#">Lemonade</a></li> 
+  <li><a href="#">Tea</a></li> 
+  <li><a href="#">Coffee</a></li> 
+</ul> 
+
+Page 143
+
+#current a:link { 
+  color:#FFF; 
+  background:#333; 
+  } 
+
+ 

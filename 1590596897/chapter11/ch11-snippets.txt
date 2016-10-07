@@ -1,0 +1,587 @@
+Page 242
+
+<div id="masthead"> 
+  ...masthead content goes here... 
+</div> 
+<div id="sidebar"> 
+  ...sidebar content goes here... 
+</div> 
+<div id="content"> 
+  ...main content goes here... 
+</div> 
+<div id="footer"> 
+  ...footer content goes here... 
+</div>
+
+Page 243
+
+/* Masthead */ 
+  #masthead { 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    } 
+/* Footer */ 
+  #footer { 
+      padding:10px; 
+      border:1px solid #000; 
+      background-color:#CCC; 
+      }
+
+Page 244/245
+
+/* Masthead */ 
+  #masthead { 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    }
+	/* Content */ 
+	  #content { 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    } 
+	/* Sidebar */ 
+	  #sidebar { 
+	    float:right; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    } 
+	/* Footer */ 
+	  #footer { 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    background-color:#CCC; 
+	    }
+	
+Page 246/247
+
+/* Masthead */ 
+  #masthead { 
+    margin:0 0 10px 0; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    } 
+/* Content */ 
+  #content { 
+    margin-right:40%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+/* Sidebar */ 
+  #sidebar { 
+    float:right; 
+    width:36%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+/* Footer */ 
+  #footer { 
+    clear:both; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    }
+
+Page 248
+
+<div id="masthead"> 
+  ...masthead content goes here... 
+</div> 
+<div id="content"> 
+  ...main content goes here... 
+</div> 
+<div id="sidebar"> 
+  ...sidebar content goes here... 
+</div> 
+<div id="footer"> 
+  ...footer content goes here... 
+</div>
+
+Page 248/249
+
+/* Content */ 
+  #content { 
+    float:left; 
+    width:54%;
+	 margin-bottom:10px; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    } 
+	/* Sidebar */ 
+	  #sidebar { 
+	    float:right; 
+	    width:36%; 
+	    margin-bottom:10px; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    } 
+
+Page 250
+
+<div id="masthead"> 
+  ...masthead content goes here... 
+</div> 
+<div id="sidebar_a"> 
+  ...sidebar acontent goes here... 
+</div> 
+<div id="sidebar_b"> 
+  ...sidebar b content goes here... 
+</div> 
+<div id="content"> 
+  ...main content goes here... 
+</div> 
+<div id="footer"> 
+  ...footer content goes here... 
+</div> 
+
+Page 250/251
+
+/* Masthead */ 
+  #masthead { 
+    margin:0 0 10px 0; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    } 
+/* Content */ 
+  #content { 
+    margin-right:30%; 
+  margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+/* Sidebar B */ 
+  #sidebar_b { 
+    float:right; 
+	    width:25%; 
+	    margin-bottom:10px; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    } 
+	/* Footer */ 
+	  #footer { 
+	    clear:both; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    background-color:#CCC; 
+	    } 
+
+Page 252
+
+/* Content */ 
+  #content { 
+    margin-left:30%; 
+   margin-right:30%; 
+   margin-bottom:10px; 
+   padding:10px; 
+   border:1px solid #000; 
+   }
+
+Page 252
+
+/* Sidebar A */ 
+  #sidebar_a { 
+    float:left; 
+    width:25%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    }
+
+Page 253/254
+
+/* Sidebar A */ 
+  #sidebar_a { 
+    float:left 
+    width:25%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+ 	/* Sidebar B */ 
+	  #sidebar_b { 
+	    float:right; 
+	    width:25%; 
+	    margin-bottom:10px; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    } 
+
+Page 254
+
+/* Sidebar A */ 
+  #sidebar_a { 
+    float:right; 
+    width:25%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+/* Sidebar B */ 
+  #sidebar_b { 
+    float:left; 
+    width:25%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    }
+
+Page 256
+
+/* Masthead */ 
+  #masthead { 
+    height:60px; 
+    margin:0 0 10px 0; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    } 
+/* Apply padding to heading to avoid Box Model woes */ 
+  h1 { 
+    padding:0 0 0 10px; 
+    }
+
+Page 256
+
+/* Content */ 
+  #content { 
+    margin-right:40%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+
+Page 256
+
+/* Sidebar */ 
+  #sidebar { 
+    position:absolute; 
+    top:82px; 
+    right:10px; 
+    width:30%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+
+Page 258
+
+/* Footer */ 
+  #footer { 
+    margin-right:40%; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    } 
+
+Page 260
+
+<div id="masthead"> 
+  ...masthead content goes here... 
+</div> 
+<div id="content"> 
+  ...main content goes here... 
+</div> 
+<div id="sidebar_a"> 
+  ...main content goes here... 
+</div> 
+<div id="sidebar_b"> 
+  ...sidebar content goes here... 
+</div> 
+<div id="footer"> 
+  ...footer content goes here... 
+</div>
+
+Page 260
+
+/* Content */ 
+  #content { 
+    margin-left:30%; 
+    margin-right:30%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+
+Page 261
+
+/* Sidebar A */ 
+  #sidebar_a { 
+    position:absolute; 
+    top:82px; 
+    left:10px; 
+    width:25%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+/* Sidebar B */ 
+  #sidebar_b { 
+    position:absolute; 
+    top:82px; 
+    right:10px; 
+    width:25%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+
+Page 261
+
+/* Footer */ 
+  #footer { 
+    margin:0 30% 0 30%; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    } 
+
+Page 262/263
+
+/* Sidebar A */ 
+  #sidebar_a { 
+    position:absolute; 
+    top:82px; 
+    left:10px; 
+    width:25%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+	/* Sidebar B */ 
+	  #sidebar_b { 
+	    position:absolute; 
+	    top:82px; 
+	    right:10px; 
+	    width:25%; 
+	    margin-bottom:10px; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    } 
+
+Page 263
+
+/* Sidebar A */ 
+  #sidebar_a { 
+    position:absolute; 
+    top:82px; 
+    right:10px; 
+    width:25%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+/* Sidebar B */ 
+  #sidebar_b { 
+    position:absolute; 
+    top:82px; 
+    left:10px; 
+    width:25%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+
+Page 265
+
+/* Sidebar_a */ 
+  #sidebar_a { 
+    width:300px; 
+    padding:10px; 
+    border:10px solid #000; 
+    } 
+
+Page 266
+
+/* Sidebar_a */ 
+  #sidebar_a { 
+    width:300px; 
+    padding:10px; 
+    border:10px solid #000; 
+    }
+
+Page 266
+
+/* Sidebar_a */ 
+  #sidebar_a { 
+    padding:10px; 
+    border:10px solid #000; 
+    width:340px; 
+    voice-family:"\"}\""; 
+    voice-family:inherit; 
+    width:300px; 
+    } 
+
+Page 267
+
+/* Sidebar_a */ 
+  #sidebar_a { 
+    padding:10px; 
+    border:10px solid #000; 
+    width:340px; 
+    voice-family:"\"}\""; 
+    voice-family:inherit; 
+    width:300px; 
+    } 
+  html>body #sidebar { 
+    width:200px; 
+    } 
+
+Page 267
+
+<div id="masthead"> 
+  ...masthead content goes here... 
+</div> 
+<div id="sidebar_a"> 
+  ...sidebar content goes here... 
+</div> 
+<div id="sidebar_b"> 
+  ...sidebar content goes here... 
+</div> 
+<div id="content"> 
+  ...main content goes here... 
+</div> 
+<div id="footer"> 
+  ...footer content goes here... 
+</div> 
+
+Page 268
+
+/* Specify blanket rules for all elements */ 
+  body { 
+    width:760px; 
+    margin:10px; 
+    font-size:80%; 
+    font-family:'Lucida Grande',Verdana,sans-serif; 
+    } 
+
+Page 268
+
+/* Masthead */ 
+  #masthead { 
+    width:738px; 
+    margin:0 0 10px 0; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    } 
+/* Footer */ 
+  #footer { 
+    clear:both; 
+    width:738px; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    } 
+
+Page 269
+
+/* Content */ 
+  #content { 
+    width:338px; 
+    margin-left:200px; 
+    margin-right:200px; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+
+Page 269
+
+/* Sidebar A */ 
+  #sidebar_a { 
+    float:left; 
+    width:158px; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+/* Sidebar B */ 
+  #sidebar_b { 
+    f loat:right; 
+    width:158px; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+
+Page 270/271/272
+
+/* Masthead */ 
+  #masthead { 
+    margin:0 0 10px 0; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    width:760px; 
+    voice-family:"\"}\""; 
+    voice-family:inherit; 
+    width:738px; 
+    } 
+  html>body #masthead { 
+    width:738px; 
+    } 
+	/* Content */ 
+	  #content { 
+	    margin-left:200px; 
+	    margin-right:200px; 
+	    margin-bottom:10px; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	     width:360px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:338px; 
+	    } 
+	  html>body #content { 
+	    width:338px; 
+	    } 
+	/* Sidebar A */ 
+	  #sidebar_a { 
+	    float:left; 
+	    margin-bottom:10px; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    width:180px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:158px; 
+	    } 
+	  html>body #sidebar_a { 
+	    width:158px; 
+	    } 
+	/* Sidebar B */ 
+	  #sidebar_b { 
+	    float:right; 
+	    margin-bottom:10px; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    width:180px; 
+	    voice-family:"\"}\""; 
+	    voice-family:inherit; 
+	    width:158px; 
+	    } 
+	  html>body #sidebar_b { 
+	    width:158px; 
+	    } 
+	/* Footer */
+	#footer { 
+    clear:both; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    width:760px; 
+    voice-family:"\"}\""; 
+    voice-family:inherit; 
+    width:738px; 
+    } 
+  html>body #footer { 
+    width:738px; 
+    } 
+  
+
+
+
+

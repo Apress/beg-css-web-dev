@@ -1,0 +1,166 @@
+Page 330
+
+<a href="target.html" class="rollover">Big Lee Hickman</a> 
+
+Page 331
+
+/* Rollover class */ 
+  .rollover { 
+    display:block; 
+    width:210px; 
+    height:157px; 
+    background:url(/images/rollover.jpg) no-repeat; 
+    text-indent:-9999px; 
+      } 
+
+Page 331
+
+/* Turn off all browser link outlines */ 
+  a { 
+    outline:none; 
+    } 
+
+Page 331
+
+a.rollover:link, a.rollover:visited, a.rollover:active { 
+  background:url(/images/rollover.jpg) no-repeat; 
+  } 
+
+Page 331
+
+a.rollover:hover { 
+  background-position:-210px 0; 
+  }
+
+Page 333
+
+<div class="stream"> 
+  <p>All the stuff you wanna scroll goes in here.</p> 
+</div>
+
+Page 334
+
+.stream { 
+  width:300px; 
+  height:300px; 
+  padding:10px; 
+  border:1px solid #999; 
+  background-color:#FFF; 
+  overflow:auto; 
+  } 
+
+Page 335
+
+<div id="masthead"><a href="#"><img src="images/mountains.jpg" alt="Mountain banner" width="796" height="320" /></a></div>
+
+Page 335
+
+/* Container for all page content */ 
+  #container { 
+    border:1px solid #000; 
+    padding:20px; 
+    background-color:#FFF; 
+    } 
+/* Masthead */ 
+  #masthead { 
+    width:100%; 
+    height:320px; 
+    border:2px solid #999; 
+    background:#CCC; 
+    overflow:hidden; 
+    } 
+
+Page 337
+
+h3 { 
+  font-size:110%; 
+  margin:10px 5px 10px 5px; 
+  padding:5px; 
+  } 
+.custom_background { 
+  background-color:#F00; 
+  }
+
+Page 338
+
+<div class="container"> 
+  <h2>Latest News</h2> 
+  <h3 class="custom_background">Man found in vase</h3> 
+    content 
+</div> 
+
+Page 338
+
+.news h3{ 
+  background:#F00; 
+  } 
+.entertainment h3{ 
+  background:#666; 
+  } 
+.sport h3{ 
+  font-size:110%; 
+  background:#CCC; 
+  } 
+.music h3{ 
+  background:#999; 
+  } 
+
+Page 338
+
+<div class="container sport"> 
+  <h2>Sports News</h2> 
+  <h3>England win 26-0</h3> 
+    content 
+</div>
+
+Page 339
+
+@import "modern.css"; 
+
+Page 339
+
+<link rel="stylesheet" type="text/css" href="basic.css" /> 
+<link rel="stylesheet" type="text/css" href="import.css" /> 
+
+Page 340
+
+/*/*/ 
+
+Page 340
+
+body { 
+  color:#000; 
+  background:#FFF; 
+ } 
+/* Netscape 4 is looking the other way */ 
+/*/*/ 
+  body { 
+    background-image:url(images/we_hate_netscape_banner.jpg); 
+    } 
+/* Bring Netscape 4 back into the room */ 
+  ...remaining CSS follows 
+
+Page 341
+
+<style type="text/css"> 
+  @import("ie-mac.css"); 
+</style>
+
+Page 341
+
+* html #selector { 
+  width:100px; 
+  } 
+
+Page 342
+
+<!--[if IE]> 
+  <link rel="stylesheet" href="ie-specific.css" /> 
+<![endif]--> 
+
+Page 342
+
+#selector { 
+  width:100px; 
+  } 
+

@@ -1,0 +1,223 @@
+/* --------------------------------------------------------
+   THE DEAD GOODS Case Study - Simon Collison (Colly Logic)
+   -------------------------------------------------------- */
+
+/* Declare body first of all */
+
+body {
+background:#666;
+font:normal 62.5% 'Lucida Grande',Verdana,sans-serif;
+text-align:center;
+}
+
+/* Wireframing - use border:1px to place borders around all div elements during development, but be aware that you'll need to change sidebar width to 306px to allow for the border widths */
+
+div {
+margin:0;
+padding:0;
+border:0px solid #F00;
+}
+
+/* ---------------
+   Layout elements
+   --------------- */
+
+/* Masthead and descendants */
+
+#masthead {
+height:263px;
+background:url(masthead.gif) no-repeat;
+}
+
+/* Main Dead Goods logo */
+#masthead img {
+margin:0 0 0 300px;
+}
+
+/* Container - needed only for faux background */
+
+#container {
+width:760px;
+margin:20px auto 20px auto;
+background:#211E0E;
+}
+
+/* The main column and descendants */
+
+#mainCol {
+float:right;
+width:450px;
+font-size:1.1em;
+line-height:150%;
+color:#CCC;
+background:#211E0E url(back_rightcol.gif) no-repeat;
+text-align:left;
+}
+
+#mainCol ul {
+list-style:none;
+margin:10px 0 10px 0;
+padding:0;
+}
+#mainCol li {
+display:inline;
+margin:0 10px 0 0;
+padding:0;
+line-height:200%;
+}
+#mainCol li a:link, #mainCol li a:visited {
+text-decoration:none;
+font-size:1.3em;
+font-weight:bold;
+color:#FFE86C;
+}
+#mainCol li a:hover {
+color:#FFF;
+}
+/* Highlighting the current page */
+#home #mainCol a.home { 
+border-bottom:3px solid #FFE86C;
+}
+
+#mainCol p {
+width:400px;
+}
+
+/* The left column and descendants */
+
+#sidebar {
+float:right;
+width:310px;
+background:#211E0E url(back_leftcol.gif) no-repeat;
+text-align:left;
+}
+
+/* The footer and descendants */
+
+#footer {
+clear:both;
+height:10em;
+min-height:110px;
+font-size:0.9em;
+line-height:150%;
+color:#FFE86C;
+background:#211E0E url(back_footer.gif) right top no-repeat;
+text-align:left;
+}
+
+#footer img {
+float:left;
+margin:10px 112px 60px 56px;
+}
+
+#footer ul {
+list-style:none;
+margin:10px 0 0 0;
+padding:0;
+}
+#footer li {
+display:inline;
+margin:0 10px 0 0;
+padding:0;
+line-height:160%;
+}
+#footer li a:link, #footer li a:visited {
+text-decoration:none;
+font-weight:bold;
+color:#FFE86C;
+font-size:1em;
+}
+#footer li a:hover {
+color:#FFF;
+}
+
+#footer p {
+margin:0 0 3px 0;
+}
+
+/* ----------------------------
+   All headings and versions of 
+   ---------------------------- */
+
+h2, h3 {
+color:#FFF;
+}
+h2 {
+margin-top:40px;
+font-size:1.6em;
+}
+h3 {
+margin-top:30px;
+font-size:1.5em;	
+}
+h4 {
+margin:550px 0 10px 56px;
+font-size:1.3em;
+color:#FFE86C;
+}
+h2 a:link, h2 a:visited, h3 a:link, h3 a:visited {
+color:#FFF;
+}
+
+/* ---------------------
+   Other common elements 
+   --------------------- */
+
+abbr {
+	
+}
+
+/* Turn off borders on image links */
+img {
+border:0;
+}
+
+/* Link states */
+
+a:link {
+	
+}
+a:visited {
+	
+}
+a:hover {
+	
+}
+a:active {
+	
+}
+
+/* ------------
+   Unique Items 
+   ------------*/
+
+.date {
+	
+}
+
+/* -------------
+   Form elements 
+   -------------*/
+
+form {
+margin:0;
+padding:0;
+}
+
+fieldset {
+border:0;
+margin:10px 0 10px 56px;
+padding:0;	
+}
+
+label {
+font-weight:bold;
+color:#FFE86C;
+}
+
+input.submit {
+margin:0 0 30px 56px;
+}
+
+
+

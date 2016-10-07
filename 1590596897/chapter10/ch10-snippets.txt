@@ -1,0 +1,281 @@
+Page 211
+
+<html> 
+  <head> 
+    <title>Chapter 10: Layout Basics</title> 
+    <link rel='stylesheet' media="screen" type='text/css' href='float.css' /> 
+  </head> 
+  <body 
+    <div id="container"> 
+      <h2>Introducing the band</h2> 
+    </div> 
+  </body> 
+</html>
+
+Page 212
+
+/* Specify blanket rules for all elements */ 
+body { 
+font-size:80%; 
+font-family:'Lucida Grande',Verdana,sans-serif; 
+margin:10px; 
+background-color:#CCC; 
+} 
+/* Container for all page content */ 
+#container { 
+padding:10px; 
+border:1px solid #000; 
+background-color:#FFF; 
+} 
+/* Rules for headings */ 
+h1 { 
+font-size:150%; 
+} 
+h2 { 
+font-size:140%; 
+} 
+h3 { 
+font-size:120%; 
+} 
+p { 
+font-size:100%; 
+line-height:150%; 
+}
+
+Page 212/213
+
+<html> 
+  <head> 
+    <title>Chapter 10: Layout Basics</title> 
+    <link rel='stylesheet' media="screen" type='text/css' href='float.css' /> 
+  </head> 
+  <body 
+    <div id="container"> 
+      <h2>Introducing the band</h2> 
+      <h3>Simon Collison</h3> 
+        <img src="/images/collison.gif" alt="Simon Collison's mugshot" /> 
+		        <p>Can't actually play any instruments, and is just along for the ride, supposedly as manager. It's pretty clear to everyone that Collison is no musician, and he certainly cannot sing.</p> 
+		    </div> 
+		  </body> 
+		</html> 
+
+Page 213
+
+<h3>Simon Collison</h3> 
+  <div class="image_float"><img src="/images/collison.gif" alt="Simon Collison's mugshot" /></div> 
+  <p>Can't actually play any instruments, and is just along for the ride, supposedly as manager. It's pretty clear to everyone that Collison is no musician, and he certainly cannot sing.</p>
+
+Page 213
+
+<h3>Simon Collison</h3> 
+  <img src="/images/collison.gif" alt="Simon Collison's mugshot" class="image_float" /> 
+  <p>Can't actually play any instruments, and is just along for the ride, supposedly as manager. It's pretty clear to everyone that Collison is no musician, and he certainly cannot sing.</p>
+
+Page 214
+
+.image_float { 
+  float:left; 
+  margin:0 5px 5px 0; 
+  }
+
+Page 215
+
+<h2>Clearing left</h2> 
+  <div class="floatbox"></div> 
+  <p>This paragraph is being cleared left, so it will be moved below the bottom outer edge of the floated gray box.</p>
+
+Page 215
+
+p { 
+font-size:100%; 
+line-height:150%; 
+} 
+.floatbox { 
+float:left; 
+width:60px; 
+height:60px; 
+background-color:#999; 
+border:1px solid #000; 
+}
+
+Page 216
+
+p { 
+clear:left; 
+font-size:100%; 
+line-height:150%; 
+} 
+.floatbox { 
+float:left; 
+width:60px; 
+height:60px; 
+background-color:#999; 
+border:1px solid #000; 
+}
+
+Page 216/217
+
+p { 
+clear:right; 
+font-size:100%; 
+line-height:150%; 
+} 
+.floatbox { 
+float:right; 
+width:60px; 
+height:60px; 
+background-color:#999; 
+border:1px solid #000; 
+}
+
+Page 217
+
+p { 
+clear:both; 
+font-size:100%; 
+line-height:150%; 
+}
+
+Page 218
+
+<h3>Simon Collison</h3> 
+  <div class="image_float"><img src="/images/collison.gif" alt="Simon Collison's mugshot" /></div> 
+  <p>Can't actually play any instruments, and is just along for the ride, supposedly as manager. It's pretty clear to everyone that Collison is no musician, and he certainly cannot sing.</p> 
+<div class="spacer"></div>
+
+Page 219
+
+.spacer { 
+  clear:left; 
+  }
+
+Page 220
+
+<h3>Simon Collison</h3> 
+  <div class="image_float"><img src="/images/collison.gif" alt="Simon Collison's     mugshot" /></div> 
+  <p>Can't actually play any instruments, and is just along for the ride, supposedly as manager. It's pretty clear to everyone that Collison is no musician, and he certainly cannot sing.</p> 
+  <div class="spacer"></div> 
+<h3>Jimi Hendrix</h3> 
+  <div class="image_float"><img src="/images/hendrix.gif" alt="Jimi Hendrix's mugshot" /></div> 
+  <p>Possibly the greatest guitarist who ever walked the earth, Mr. Hendrix is thankfully alive once more to play the next <em>Dead Goods</em> tour across the North of England.</p> 
+  <div class="spacer"></div>
+
+Page 221/222
+
+<h2>Introducing the band</h2> 
+  <h3>Simon Collison</h3> 
+    <div class="image_float"><img src="/images/collison.gif" alt="Simon Collison's mugshot" /></div> 
+    <p>Can't actually play any instruments, and is just along for the ride, supposedly as manager. It's pretty clear to everyone that Collison is no musician, and he certainly cannot sing.</p>
+	 <h3>Jimi Hendrix</h3> 
+	    <div class="image_float"><img src="/images/hendrix.gif" alt="Jimi Hendrix's mugshot" /></div> 
+	    <p>Possibly the greatest guitarist who ever walked the earth, Mr. Hendrix is thankfully alive once more to play the next <em>Dead Goods</em> tour across the North of England.</p> 
+	  <h3>Janis Joplin</h3> 
+	    <div class="image_float"><img src="/images/joplin.gif" alt="Joplin's mugshot" /></div> 
+	    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum in lacus. ... Quisque vitae lorem placerat risus posuere congue. Integer a orci.</p> 
+	  <h3>John Lennon</h3> 
+	    <div class="image_float"><img src="/images/lennon.gif" alt="Lennon's mugshot" /></div> 
+	    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum in lacus. ... Quisque vitae lorem placerat risus posuere congue. Integer a orci.</p> 
+	    <div class="spacer"></div>
+
+Page 222
+
+h3 { 
+  clear:left; 
+  padding-top:20px; 
+  font-size:120%; 
+  } 
+
+Page 224
+
+.image_float { 
+  float:right; 
+  margin:0 0 5px 5px; 
+  } 
+
+Page 224
+
+h3 { 
+  clear:right; 
+  padding-top:20px; 
+  font-size:120%; 
+  } 
+.spacer { 
+  clear:right; 
+  }
+
+Page 227
+
+<div id="container"> 
+  <h3>Simon Collison</h3> 
+    <div class="image_float"><img src="/images/collison.gif" alt="Simon Collison's mugshot" /></div> 
+    <p>Can't actually play any instruments, and is just along for the ride, supposedly as manager. It's pretty clear to everyone that Collison is no musician, and he certainly cannot sing.</p> 
+</div>
+
+Page 227/228
+
+/* Define the container for positioning examples */ 
+ #container { 
+  width:400px; 
+  height:400px; 
+  margin:10px; 
+    padding:10px; 
+  border:1px solid #000; 
+    background-color: #FFF; 
+  }
+p { 
+  font-size:100%; 
+  line-height:150%; 
+} 
+
+Page 228
+
+/* Define image position */ 
+  img { 
+    position:relative; 
+    left:400px; 
+    } 
+
+Page 229
+
+/* Define image position */ 
+ img { 
+  position:absolute; 
+   left:400px; 
+  }
+
+Page 230
+
+/* Container for all page content */ 
+ #container { 
+    position:relative; 
+    top:100px; 
+  width: 400px; 
+  height: 400px; 
+  margin: 10px; 
+    padding:10px; 
+  border: 1px solid #000; 
+    background-color:#FFF; 
+ } 
+/* Define image position */ 
+  img { 
+    position:absolute; 
+    left:400px; 
+  } 
+
+Page 231
+
+/* Container for all page content */ 
+ #container { 
+  width: 400px; 
+  height: 400px; 
+  margin: 10px; 
+    padding:10px; 
+  border: 1px solid #000; 
+    background-color:#FFF; 
+ } 
+/* Define image position */ 
+  img { 
+    position:fixed; 
+    left:400px; 
+  } 
+

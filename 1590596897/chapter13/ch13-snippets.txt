@@ -1,0 +1,361 @@
+Page 292
+
+<div id="masthead"> 
+  <h1>Masthead</h1> 
+</div> 
+
+Page 292
+
+/* Masthead */ 
+  #masthead { 
+    margin:0 0 10px 0; 
+    width:760px; 
+    height:150px; 
+    background:url(/images/masthead1.gif) no-repeat; 
+    } 
+
+Page 293
+
+#masthead h1 { 
+  display:none; 
+  }
+
+Page 293
+
+/* Masthead */ 
+  #masthead { 
+    margin:0 0 10px 0; 
+    width:760px; 
+    height:150px; 
+    background:url(/images/mastheadback.gif) repeat-x; 
+    } 
+
+Page 294
+
+<div id="masthead"> 
+  <h1><a href=""><img src="/images/logo1.gif" alt="Masthead" /></a></h1> 
+</div>
+
+Page 294
+
+#masthead h1 { 
+  margin:0; 
+  padding:0; 
+  } 
+img { 
+  border:0; 
+  } 
+
+Page 295
+
+<div id="masthead"> 
+  <h1><a href=""><img src="/images/logo1.gif" alt="Masthead" /></a></h1> 
+  <div class="searchbox"> 
+    <form> 
+      <fieldset> 
+        <legend>Search the site</legend> 
+        <input type="text" name="keywords" size="15" /> <input type="submit" ➥ 
+        value="Go" /> 
+      </fieldset> 
+    </form> 
+  </div> 
+</div>
+
+Page 296
+
+/* Masthead */ 
+  #masthead { 
+    margin:0 0 10px 0; 
+    width:760px; 
+    height:150px; 
+    background:url(/images/mastheadback.gif) repeat-x; 
+    } 
+  #masthead h1 { 
+    float:left; 
+    margin:0; 
+    padding:0; 
+    } 
+/* Search box holding the search form */ 
+  .searchbox { 
+    float:right; 
+    width:220px; 
+    margin:15px; 
+    } 
+/* form items only inside searchbox */ 
+  .searchbox legend { 
+    border:1px solid #666; 
+    padding:3px; 
+    background-color:#CCC; 
+    } 
+  .searchbox input { 
+    border:3px double #666; 
+    } 
+/* Turn off any default image borders */ 
+  img { 
+    border:0; 
+    } 
+
+Page 297
+
+<div id="sidebar_a"> 
+  <h3><img src="/images/sidebar.gif" alt="Sidebar" /></h3> 
+    <ul> 
+      <li>Item One</li> 
+      <li>Item Two</li> 
+      <li>Item Three</li> 
+      <li>Item Four</li> 
+      <li>Item Five</li> 
+    </ul> 
+</div> 
+
+Page 298
+
+#sidebar_a ul { 
+  width:160px; 
+  padding:0; 
+list-style-type:none; 
+ font:bold 12px 'Lucida Grande',Verdana,sans-serif; 
+  } 
+#sidebar_a li { 
+ background-color:#DDD; 
+ margin:0; 
+ padding:2px 10px; 
+  border-width:1px; 
+  border-style:solid; 
+  border-color:#fff #666 #aaa #fff; 
+  } 
+
+Page 300
+
+<div id="footer"> 
+  <p>Copyright Simon Collison 2006</p> 
+  <p>Made with the finest <a href="">XHTML</a> and <a href="">CSS</a>.</p> 
+  <p>Content protected with a <a href="">Creative Commons</a> license. Some➥ 
+   rights reserved.</p> 
+</div>
+
+Page 300/301
+
+/* Footer */ 
+  #footer { 
+    clear:both; 
+	margin:10px 0 0 0; 
+	    background:url(/images/bubble_footer.jpg) no-repeat; 
+	    height:128px; 
+	     width:760px; 
+	    }
+	
+Page 301
+
+/* Footer */ 
+  #footer { 
+    clear:both; 
+    margin:10px 0 0 0; 
+    padding-top:15px; 
+    background:url(/images/bubble_footer.jpg) no-repeat; 
+    height:128px; 
+    width:760px; 
+    } 
+  #footer p { 
+    margin:0 0 6px 35px; 
+    padding:0; 
+    width:330px; 
+    font:13px/120% normal Verdana,Arial,sans-serif; 
+    } 
+
+Page 303
+
+<div id="footer"> 
+  <h4>Small print</h4> 
+    <p>Copyright Simon Collison 2006</p> 
+    <p>Made with the finest <a href="">XHTML</a> and➥ 
+       <a href="">CSS</a>.</p> 
+    <p>Content protected with a <a href="">Creative Commons</a>➥ 
+       license. Some rights reserved.</p> 
+  <h4>Recent articles</h4> 
+    <ul> 
+      <li><a href="">Interesting waffle</a></li> 
+      <li><a href="">Some amazing news</a></li> 
+      <li><a href="">Bad news everyone...</a></li> 
+      <li><a href="">I've won the lottery!</a></li> 
+      <li><a href="">New website launched</a></li> 
+    </ul> 
+  <h4>Archives</h4> 
+    <form action="#"> 
+      <fieldset> 
+        <select name="select1"> 
+          <option selected value="/">Select Month:</option> 
+        </select> 
+      </fieldset> 
+    </form> 
+    <form action="#"> 
+      <fieldset> 
+        <select name="select2"> 
+          <option selected value="/">Select Year:</option> 
+        </select> 
+      </fieldset> 
+    </form> 
+    <form action="#"> 
+      <fieldset> 
+        <select name="select3"> 
+          <option selected value="/">Select category:</option> 
+        </select> 
+      </fieldset> 
+    </form> 
+  <h4>Recently launched</h4> 
+    <img src="/images/dpt.jpg" alt="Dirty Pretty Things" /> 
+    <p><a href="">Dirty Pretty Things</a></p> 
+    <img src="/images/lib.jpg" alt="The Libertines" /> 
+    <p><a href="">The Libertines</a></p> 
+    <img src="/images/jb.jpg" alt="Jon Burgerman" /> 
+    <p><a href="">Jon Burgerman</a></p> 
+    <img src="/images/pop.jpg" alt="Poptones" /> 
+    <p><a href="">Poptones</a></p> 
+</div> 
+
+Page 305
+
+<div id="footer"> 
+  <div class="footerCol"> 
+    <h4>Small print</h4> 
+      <p>Copyright Simon Collison 2006</p> 
+      <p>Made with the finest <a href="">XHTML</a> and➥ 
+         <a href="">CSS</a>.</p> 
+      <p>Content protected with a <a href="">Creative Commons</a>➥ 
+         license. Some rights reserved.</p> 
+  </div> 
+  <div class="footerCol"> 
+    <h4>Recent articles</h4> 
+      <ul> 
+        <li><a href="">Interesting waffle</a></li> 
+        <li><a href="">Some amazing news</a></li> 
+        <li><a href="">Bad news everyone...</a></li> 
+        <li><a href="">I've won the lottery!</a></li> 
+        <li><a href="">New website launched</a></li> 
+      </ul> 
+  </div> 
+  <div class="footerCol"> 
+    <h4>Archives</h4> 
+      <form action="#"> 
+        <fieldset> 
+          <select name="select1"> 
+            <option selected value="/">Select Month:</option> 
+          </select> 
+        </fieldset> 
+      </form> 
+      <form action="#"> 
+        <fieldset> 
+          <select name="select2"> 
+            <option selected value="/">Select Year:</option> 
+          </select> 
+        </fieldset> 
+      </form> 
+      <form action="#"> 
+        <fieldset> 
+          <select name="select3"> 
+            <option selected value="/">Select category:</option> 
+          </select> 
+        </fieldset> 
+      </form> 
+  </div> 
+  <div class="footerCol"> 
+    <h4>Recently launched</h4> 
+      <img src="/images/dpt.jpg" alt="Dirty Pretty Things" /> 
+      <p><a href="">Dirty Pretty Things</a></p> 
+	      <img src="/images/lib.jpg" alt="The Libertines" /> 
+	      <p><a href="">The Libertines</a></p> 
+	      <img src="/images/jb.jpg" alt="Jon Burgerman" /> 
+	      <p><a href="">Jon Burgerman</a></p> 
+	      <img src="/images/pop.jpg" alt="Poptones" /> 
+	      <p><a href="">Poptones</a></p> 
+	  </div> 
+	  <div class="spacer"></div> 
+	</div> 
+
+Page 306
+
+/* Footer */ 
+  #footer { 
+    clear:both; 
+    margin:10px 0 0 0; 
+    width:760px; 
+    border:1px solid #000; 
+    } 
+/* Reusable class for columns in the footer */ 
+  .footerCol { 
+    float:left; 
+    width:170px; 
+    margin-left:15px; 
+    border:1px solid #999; 
+    } 
+/* Spacer div to follow multiple floated items */ 
+  .spacer { 
+    clear:both; 
+      } 
+
+Page 307
+
+#footer ul { 
+  margin:0;padding:0 0 0 25px; 
+  list-style-image:url(/images/list.gif); 
+  line-height:150%; 
+   } 
+#footer fieldset { 
+  margin:0; 
+  border:0; 
+  padding:0; 
+   } 
+
+Page 308
+
+<div class="footerCol"> 
+  <h4>Recently launched</h4> 
+    <img src="/images/dpt.jpg" alt="Dirty Pretty Things" /> 
+    <p><a href="">Dirty Pretty Things</a></p> 
+  <div class="spacer"></div> 
+    <img src="/images/lib.jpg" alt="The Libertines" /> 
+    <p><a href="">The Libertines</a></p> 
+  <div class="spacer"></div> 
+    <img src="/images/jb.jpg" alt="Jon Burgerman" /> 
+    <p><a href="">Jon Burgerman</a></p> 
+  <div class="spacer"></div> 
+    <img src="/images/pop.jpg" alt="Poptones" /> 
+    <p><a href="">Poptones</a></p> 
+  <div class="spacer"></div> 
+</div> 
+
+Page 308
+
+.footerCol img { 
+  float:left; 
+  border:2px solid #999; 
+  margin:0 5px 10px 0; 
+ } 
+
+Page 309
+
+/* Footer */ 
+  #footer { 
+    clear:both; 
+    margin:30px 0 0 0; 
+    padding:40px 0 15px 0; 
+    width:760px; 
+    } 
+/* Reusable class for columns in the footer */ 
+  .footerCol { 
+    float:left; 
+    width:170px; 
+    margin-left:15px; 
+    } 
+
+Page 310
+
+/* Footer */ 
+  #footer { 
+    clear:both; 
+    margin:30px 0 0 0; 
+    padding:40px 0 15px 0; 
+    width:760px; 
+    background:#FFF url(/images/cutout.gif) no-repeat; 
+    } 
+

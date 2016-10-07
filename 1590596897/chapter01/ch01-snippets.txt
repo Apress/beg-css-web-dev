@@ -1,0 +1,119 @@
+Page 5
+
+ <p style="color: #F00">
+	
+	
+Page 6
+
+<style type="text/css">p {color: #F00;}</style>
+
+
+Page 6
+
+<link rel="stylesheet" type="text/css" href="external.css" />
+
+Page 7
+
+p {color: #F00;}
+
+Page 8
+
+<style type="text/css">@import url(external.css);</style>
+
+Page 8
+
+<link rel="stylesheet" media="screen" type="text/css" href="screen.css" /> 
+<link rel="stylesheet" media="print" type="text/css" href="print.css" />
+
+Page 10
+
+<link rel="stylesheet" media="screen" type="text/css" href="css/screen/default.css" /> 
+<link rel="stylesheet" media="print" type="text/css" href="css/print/default.css" /> 
+<link rel="stylesheet" media="handheld" type="text/css" href="css/handheld/default.css" />
+
+Page 11
+
+@import url("default.css"); 
+@import url("layout.css");
+
+Page 11
+
+<div id="header"><h1>Applying CSS Templates</h1></div>
+
+Page 12
+
+<link rel="stylesheet" media="screen" type="text/css" href="css/screen/external.css" />
+
+Page 12
+
+<link rel="stylesheet" media="print" type="text/css" href="css/screen/default.css" />
+
+Page 13
+
+p { 
+  color: #F00; 
+  }
+
+Page 13
+
+p { 
+  color: #F00; 
+  font-size: 12px; 
+  }
+
+Page 13
+
+p { 
+  color: #F00; 
+  font-size: 12px; 
+  } 
+h1 { 
+  color: #333; 
+  font-size: 16px; 
+  }
+
+Page 14
+
+/* Default styling for paragraphs */ 
+p { 
+  color: #F00; 
+  font-size: 12px; 
+  } 
+/* Make all top-level headings gray and 16px high */ 
+h1 { 
+  color: #333; 
+  font-size: 16px; 
+  }
+
+Page 14
+
+/* Default styling for paragraphs 
+-------------------------------------------------------- */ 
+p { 
+  color: #F00; 
+  font-size: 12px; 
+  }
+
+Page 15
+
+/* =p Default styling for paragraphs 
+-------------------------------------------------------- */ 
+p { 
+  color: #F00; 
+  font-size: 12px; 
+  } 
+
+Page 15
+
+/* =p Default styling for paragraphs 
+-------------------------------------------------------- */ 
+  p { 
+    color: #F00; 
+    font-size: 12px; 
+    } 
+/* =h1 Make all top-level headings gray and 16px high 
+--------------------------------------------------------------*/ 
+  h1 { 
+    color: #333; 
+    font-size: 16px; 
+    }

@@ -1,0 +1,461 @@
+Page 168
+
+<input type="text" name="email" id="email" /> 
+
+Page 168
+
+<input type="text" name="email" id="email" maxlength="50" size="20" /> 
+
+Page 168
+
+<input type="checkbox" name="checkbox" id="checkbox" value="n" /> 
+
+Page 169
+
+<input type="radio" name="radio" id="radio" value="n" /> 
+
+Page 169
+
+<input type='submit' value='Send this enquiry' /> 
+
+Page 169
+
+<textarea name="message" id="message" rows='11' cols="30"></textarea> 
+
+Page 169
+
+<select name="subject" id="subject"> 
+  <option value="">Select</option> 
+  <option value="Option 1">Option 1</option> 
+  <option value="Option 2">Option 2</option> 
+</select>
+
+Page 170
+
+<fieldset> 
+  form tags go here (form, select, option, etc) 
+</fieldset> 
+
+Page 170
+
+<fieldset> 
+  <legend>Enquiry Form</legend> 
+    form tags go here (form, select, option, etc) 
+</fieldset> 
+
+Page 171
+
+<label for="email">Email</label><input type="text" name="email" id="email" /> 
+
+Page 171
+
+<label for="firstname">First Name</label><input type="text" name="firstname" id="firstname" tabindex="1" /> 
+<label for="surname">Surname</label><input type="text" name="surname" id="surname" tabindex="2" /> 
+<label for="email">Email</label><input type="text" name="email" id="email" tabindex="3" /> 
+
+page 171
+
+<label for="email" accesskey="3">Email</label>input type="text" name="email" id="email" />
+
+Page 172
+
+<form action="" method="post" id="enquiryform"> 
+
+page 172
+
+#enquiryform input { 
+  width:100%; 
+  }
+
+Page 172
+
+<input type="text" name="name" id="name" /> 
+
+Page 172
+
+#name { 
+  width:200px; 
+  } 
+
+Page 176
+
+form { 
+  margin:0; 
+  padding:0; 
+  } 
+
+Page 176
+
+input, textarea { 
+  border: 3px double #333; 
+  } 
+
+Page 177
+
+input, textarea { 
+  width:100%; 
+  border: 3px double #999999; 
+  }
+
+Page 178
+
+#name, #email, #message { 
+  width:100%; 
+  } 
+input, textarea { 
+  border: 3px double #999999; 
+  }
+
+Page 178
+
+#name, #email, #message, #subject { 
+  width:100%; 
+  } 
+
+Page 179
+
+label { 
+  font-weight:bold; 
+  } 
+
+Page 180
+
+fieldset { 
+  margin:0 0 10px 0; 
+  padding:5px; 
+  border:1px solid #333; 
+  } 
+
+Page 181
+
+legend { 
+  background-color: #DDDDDD; 
+  margin: 0; 
+  padding:5px; 
+  border-style:solid; 
+  border-width:1px; 
+  border-color:#FFF #AAA #666 #FFF; 
+  }
+
+Page 182/183
+
+form { 
+  margin:0; 
+  padding:0; 
+  } 
+fieldset { 
+  margin:0 0 10px 0; 
+  padding:5px; 
+  border:1px solid #333; 
+  }
+legend { 
+  background-color: #DDDDDD; 
+  margin: 0; 
+  padding:5px; 
+border-style:solid; 
+  border-width:1px; 
+  border-color:#FFF #AAA #666 #FFF; 
+  } 
+label { 
+  font-weight:bold; 
+  } 
+#name, #email, #message, #subject { 
+  width:100%; 
+  } 
+input, textarea { 
+  border:3px double #333; 
+  }
+
+Page 184
+
+table { 
+  border:0; 
+  border-collapse:collapse; 
+  font: normal 12px 'Lucida Grande',Verdana,sans-serif; 
+  } 
+td, tr { 
+  padding:6px; 
+  } 
+td { 
+  border-bottom: 1px solid #666; 
+  }
+
+page 184
+
+tr { 
+  background:#DDDDDD; 
+  } 
+
+Page 185
+
+table { 
+  border:0; 
+  border-collapse:collapse; 
+  font: normal 12px 'Lucida Grande',Verdana,sans-serif; 
+  } 
+td, tr { 
+  padding:6px; 
+  } 
+tr { 
+  background:#DDDDDD; 
+  } 
+td { 
+  border-bottom: 1px solid #666; 
+  } 
+form { 
+  margin:0; 
+  padding:0; 
+  } 
+fieldset { 
+  margin:0 0 10px 0; 
+  padding:5px; 
+  border:1px solid #333; 
+  } 
+legend { 
+  background: #DDDDDD; 
+  margin: 0; 
+  padding:5px; 
+  border-style:solid; 
+  border-width:1px; 
+  border-color:#FFF #AAA #666 #FFF; 
+} 
+label { 
+  font-weight:bold; 
+  } 
+#name, #email, #message, #subject { 
+  width:100%; 
+  } 
+input, textarea { 
+  border:3px double #333; 
+  }
+
+Page 187
+
+<form action="" method="post" id="enquiryform"> 
+  <fieldset> 
+    <legend>Enquiry Form</legend> 
+    <p>Fields marked * are compulsory.</p> 
+    <p><label for="subject">Subject *</label><br /> 
+      <select name="subject" id="subject" tabindex="1"> 
+        <option value="">Select</option> 
+        <option value="Option 1">Option 1</option> 
+        <option value="Option 2">Option 2</option> 
+      </select></p> 
+    <p><label for="name">Name *</label><br /> 
+      <input type="text" name="name" id="name" tabindex="2" /></p> 
+    <p><label for="email">Email *</label><br /> 
+      <input type="text" name="email" id="email" tabindex="3" /></p> 
+    <p><label for="message">Message or enquiry below</label><br /> 
+      <textarea name="message" id="message" rows="11" cols="30" ➥ 
+      tabindex="4"></textarea></p> 
+    <p><label for="updates">I would like to receive updates: </label><br /> 
+      <input type="checkbox" name="updates" id="updates" ➥ 
+            value="n" tabindex="5"/></p> 
+  </fieldset> 
+  <input type="submit" value="Send this enquiry" tabindex="6" /> 
+</form>
+
+Page 188
+
+<p><label for="name">Name *</label> 
+<input type="text" name="name" id="name" tabindex="2" /></p> 
+
+Page 190
+
+#name, #email, #message { 
+  width:100%; 
+  }
+
+Page 191
+
+fieldset { 
+  margin:0 0 10px 0; 
+  padding:5px; 
+  border:1px solid #333; 
+  background:#DDDDDD; 
+  }
+
+Page 192
+
+fieldset p { 
+  margin:3px 0 2px 0; 
+  padding:5px; 
+  background:#DDDDDD; 
+  }
+
+Page 193
+
+form { 
+  margin:0; 
+  padding:0; 
+  } 
+fieldset { 
+  font: normal 12px 'Lucida Grande',Verdana,sans-serif; 
+  margin:0 0 10px 0; 
+  padding:5px; 
+  border:1px solid #333; 
+  } 
+fieldset p { 
+  margin:3px 0 2px 0; 
+  padding:5px; 
+  border:1px solid #666; 
+  background:#DDDDDD; 
+} 
+legend { 
+  background-color: #DDDDDD; 
+  margin: 0; 
+  padding:5px; 
+  border-style:solid; 
+  border-width:1px; 
+  border-color:#FFF #AAA #666 #FFF; 
+  } 
+label { 
+  font-weight:bold; 
+  } 
+#name, #email, #message { 
+  width:100%; 
+  } 
+input, textarea { 
+  margin:5px 0 5px 0; 
+  border:3px double #333; 
+  } 
+select { 
+  margin:5px 0 5px 0; 
+  }
+
+Page 195
+
+<form action="" method="post" id="enquiryform"> 
+  <fieldset> 
+    <legend>Enquiry Form</legend> 
+    <p>Fields marked * are compulsory.</p> 
+    <dl> 
+      <dt><label for="subject">Subject *</label></dt> 
+      <dd><select name="subject" id="subject" tabindex="1"> 
+        <option value="">Select</option> 
+        <option value="Option 1">Option 1</option> 
+        <option value="Option 2">Option 2</option> 
+      </select></dd> 
+      <dt><label for="name">Name *</label></dt> 
+      <dd><input type="text" name="name" id="name" tabindex="2" /></dd> 
+      <dt><label for="email">Email *</label></dt> 
+      <dd><input type="text" name="email" id="email" tabindex="3" /></dd> 
+      <dt><label for="message">Message or enquiry below</label></dt> 
+      <dd><textarea name="message" id="message" rows="11" cols="30"➥ 
+      tabindex="4"></textarea></dd> 
+      <dt><label for="updates">I would like to receive updates: </label></dt> 
+      <dd><input type="checkbox" name="updates" id="updates" value="n" ➥ 
+      tabindex="5"/></dd> 
+    </dl> 
+  </fieldset> 
+  <input type="submit" value="Send this enquiry" tabindex="6" /> 
+</form>
+
+Page 196
+
+fieldset dd { 
+  margin:0; 
+  } 
+
+Page 198
+
+fieldset dt { 
+  float:left; 
+  width:150px; 
+  padding:5px; 
+  border:1px solid #CCC; 
+  } 
+fieldset dd { 
+  margin:0; 
+  padding:5px; 
+  border:1px solid #CCC; 
+  } 
+
+Page 199
+
+fieldset dd { 
+  width:450px; 
+  margin:0; 
+  padding:5px; 
+  } 
+fieldset dt { 
+  float:left; 
+  width:150px; 
+  padding:5px; 
+  } 
+fieldset dd { 
+  margin:0; 
+  padding:5px; 
+ }
+
+Page 200
+
+#name, #email, #message, #subject { 
+  width:280px; 
+  }
+
+Page 201
+
+fieldset dl { 
+  border:1px solid #666; 
+  background:#DDDDDD; 
+  } 
+
+Page 202
+
+fieldset dl { 
+  padding-bottom:15px; 
+  border:1px solid #666; 
+  background:#DDDDDD; 
+  } 
+
+Page 203
+
+fieldset dl { 
+  padding-bottom:15px; 
+  border:1px solid #666; 
+  background:#DDDDDD; 
+  } 
+fieldset dt { 
+  float:left; 
+  width:150px; 
+  padding:5px; 
+  } 
+fieldset dd { 
+  width:450px; 
+  margin:0; 
+  padding:5px; 
+  } 
+form { 
+  margin:0; 
+  padding:0; 
+  } 
+fieldset { 
+  margin:0 0 10px 0; 
+  padding:5px; 
+  border:1px solid #333; 
+  font: normal 12px 'Lucida Grande',Verdana,sans-serif; 
+  } 
+fieldset p { 
+  padding:5px; 
+  border:1px solid #666; 
+  background:#DDDDDD; 
+  } 
+legend { 
+  background: #DDDDDD; 
+  margin: 0; 
+  padding:5px; 
+  border-style:solid; 
+  border-width:1px; 
+  border-color:#FFF #AAA #666 #FFF; 
+  font-weight:bold; 
+  }
+label { 
+  font-weight:bold; 
+  } 
+#name, #email, #message, #subject { 
+  width:280px; 
+  } 
+input, textarea { 
+  border:3px double #333; 
+  }

@@ -1,0 +1,308 @@
+Page 148
+
+table { 
+  font: normal 12px 'Lucida Grande',Verdana,sans-serif; 
+  } 
+
+Page 149
+
+th, td { 
+  border:1px solid #333; 
+  } 
+
+Page 149
+
+th { 
+  text-align:left; 
+  color:#FFF; 
+  background-color:#333; 
+  } 
+
+Page 150
+
+td { 
+  background-color: #DDDDDD; 
+  border-style:solid; 
+  border-width:1px; 
+  border-color:#FFF #AAA #666 #FFF; 
+  }
+
+Page 150
+
+td, th { 
+  border:1px solid #333; 
+  padding:3px; 
+  }
+
+Page 151
+
+table { 
+  border: 1px solid #333; 
+  font: normal 12px 'Lucida Grande',Verdana,sans-serif; 
+  } 
+td, th { 
+  padding:3px; 
+  } 
+th { 
+  text-align:left; 
+  color:#FFF; 
+  background-color:#333; 
+  border-style:solid; 
+  border-width:1px; 
+  border-color:#CCC #666 #000 #CCC; 
+  } 
+td { 
+  background-color:#DDDDDD; 
+  border-style:solid; 
+  border-width:1px; 
+  border-color:#FFF #AAA #666 #FFF; 
+  } 
+
+Page 152
+
+table { 
+  border:0; 
+  font: normal 12px 'Lucida Grande',Verdana,sans-serif; 
+  } 
+td, th { 
+  padding:3px; 
+  } 
+th { 
+  text-align:left; 
+  border-bottom: 1px solid #000; 
+  } 
+td { 
+  border-bottom: 1px solid #666; 
+  }
+
+Page 153
+
+table { 
+  border:0; 
+  border-collapse:collapse; 
+  font: normal 12px 'Lucida Grande',Verdana,sans-serif; 
+  } 
+
+Page 154
+
+table { 
+  border:0; 
+  border-collapse:collapse; 
+  font: normal 12px 'Lucida Grande',Verdana,sans-serif; 
+  } 
+td, th { 
+  padding:6px; 
+  } 
+th { 
+  text-align:left; 
+  border-bottom: 1px solid #000; 
+  } 
+td { 
+  border-bottom: 1px solid #666; 
+  }
+
+Page 154/155
+
+<table> 
+  <caption> World Cup record: France</caption> 
+  <tr> 
+    <th>1986</th> 
+    <th>1990</th> 
+    <th>1994</th> 
+    <th>1998</th> 
+    <th>2002</th> 
+  </tr> 
+  <tr> 
+    <td>Don't know</td> 
+    <td>Don't care</td> 
+    <td>Not bothered</td> 
+    <td>Winners</td> 
+    <td>Group stages</td> 
+  </tr>
+</table> 
+
+Page 155/156
+
+table { 
+  border:0; 
+  border-collapse:collapse; 
+  font: normal 12px 'Lucida Grande',Verdana,sans-serif; 
+  } 
+caption { 
+  font-weight:bold; 
+  font-size:15px; 
+  padding:10px; 
+  } 
+td, th { 
+  padding:6px; 
+  } 
+th { 
+  text-align:left; 
+  background:#FFF url(images/tablefade.gif) repeat-x; 
+  border-bottom: 1px solid #000; 
+  } 
+td { 
+  border-bottom: 1px solid #666; 
+  } 
+
+Page 156/157
+
+<table> 
+  <caption>World Cup record: France</caption> 
+  <tr> 
+    <th>1986</th> 
+    <th>1990</th> 
+    <th>1994</th> 
+    <th>1998</th> 
+    <th>2002</th> 
+  </tr> 
+  <tr> 
+    <td>Don't know</td> 
+    <td>Don't care</td> 
+    <td>Not bothered</td> 
+    <td class="winners">Winners</td> 
+    <td>Group stages</td> 
+  </tr> 
+</table>
+
+Page 157
+
+.winners { 
+  font-weight:bold; 
+  color:#FFF; 
+  background-color:#F00; 
+  }
+
+Page 158
+
+.winners { 
+  font-weight:bold; 
+  padding-right:25px; 
+  background:#FFF url(images/star.gif) right center no-repeat; 
+  } 
+
+Page 159
+
+<dl> 
+  <dt>England</dt> 
+    <dd>Terrible soccer team</dd> 
+  <dt>Brazil</dt> 
+    <dd>Unbelievably good soccer team</dd> 
+</dl>
+
+Page 159
+
+<dl> 
+  <dt>England</dt> 
+    <dd>Terriible men's team</dd> 
+    <dd>Improving women's team</dd> 
+</dl>
+
+Page 160
+
+<dl> 
+  <dt>England (men)</dt> 
+  <dt>England (women)</dt> 
+    <dd>Two teams with varying degrees of success</dd> 
+</dl>
+
+Page 160
+
+<dl> 
+  <dt>England Soccer team</dt> 
+  <dd><p>Terrible soccer team. Still, won the World Cup in 1966, which is ➥ 
+  something to cling on to.</p></dd> 
+</dl>
+
+page 161
+
+<dl> 
+  <dt>England Soccer Team</dt> 
+  <dd> 
+    <ul> 
+      <li>David Beckham</li> 
+      <li>Wayne Rooney</li> 
+      <li>Michael Owen</li> 
+      <li>Steven Gerrard</li> 
+    </ul> 
+  </dd> 
+</dl>
+
+Page 162
+
+ul { 
+  list-style-type:none; 
+  margin:5px; 
+  padding:2px; 
+  border:1px solid #333; 
+  width:160px; 
+  font: bold 12px 'Lucida Grande',Verdana,sans-serif; 
+  } 
+li { 
+  background-color: #DDDDDD; 
+  margin: 0; 
+  border-style:solid; 
+  border-width:1px; 
+  border-color:#FFF #AAA #666 #FFF; 
+  }
+
+Page 162
+
+dl { 
+  padding:2px; 
+  border:1px solid #333; 
+  font: bold 12px 'Lucida Grande',Verdana,sans-serif; 
+  } 
+
+Page 163
+
+dt { 
+  background-color: #DDDDDD; 
+  padding:2px; 
+  border-style:solid; 
+  border-width:1px; 
+  border-color:#FFF #AAA #666 #FFF; 
+  }
+
+Page 164
+
+dd { 
+  margin:0; 
+  }
+
+Page 164
+
+ul { 
+  list-style-type:none; 
+  margin:5px 0 5px 0; 
+  padding:0; 
+  } 
+li { 
+  background-color: #DDDDDD; 
+  margin: 0; 
+  padding:2px; 
+  border-style:solid; 
+  border-width:1px; 
+  border-color:#FFF #AAA #666 #FFF; 
+  }
+
+Page 165
+
+dl { 
+  width:160px; 
+  margin:0; 
+  padding:2px; 
+  border:1px solid #333; 
+  font: bold 12px 'Lucida Grande',Verdana,sans-serif; 
+  }
+
+Page 165
+
+dt { 
+  color:#FFF; 
+  background-color: #333; 
+  padding:2px; 
+  border-style:solid; 
+  border-width:1px; 
+  border-color:#FFF #AAA #666 #FFF; 
+  } 

@@ -1,0 +1,294 @@
+Page 351
+
+/* Wireframing - place borders around all div elements during development */ 
+  div { 
+    margin:0; 
+    padding:0; 
+    border:1px solid #F00; 
+    } 
+
+Page 351
+
+/* Wireframing - place borders around all div elements during development */ 
+  div { 
+    margin:0; 
+    padding:0; 
+    outline:1px solid red; 
+  } 
+
+Page 352
+
+/* Declare body first of all */ 
+  body { 
+    text-align:center 
+    } 
+
+Page 352
+
+/* Container */ 
+  #container { 
+    width:760px; 
+    margin:20px auto; 
+    background:#211E0E; 
+    } 
+
+Page 352
+
+/* Masthead and descendants */ 
+  #masthead { 
+    height:263px; 
+} 
+
+Page 353
+
+/* The main column and descendants */ 
+  #mainCol { 
+    float:right; 
+    width:450px; 
+    text-align:left; 
+    } 
+
+Page 353
+
+/* The left column and descendants */ 
+  #sidebar { 
+    float:right; 
+    width:310px; 
+    text-align:left; 
+} 
+
+Page 353
+
+/* The footer and descendants */ 
+  #footer { 
+    clear:both; 
+    text-align:left; 
+    } 
+
+Page 355
+
+/* Masthead and descendants */ 
+  #masthead { 
+    height:263px; 
+    background:url(masthead.gif) no-repeat; 
+} 
+
+Page 356
+
+/* The left column and descendants */ 
+  #sidebar { 
+    float:right; 
+    width:310px; 
+    background:#211E0E url(back_leftcol.gif) no-repeat; 
+    text-align:left; 
+    } 
+
+Page 357
+
+/* The main column and descendants */ 
+  #mainCol { 
+    float:right; 
+    width:450px; 
+    background:#211E0E url(back_rightcol.gif) no-repeat; 
+    text-align:left; 
+    } 
+
+Page 358
+
+/* The footer and descendants */ 
+  #footer { 
+    clear:both; 
+    background:#211E0E url(back_footer.gif) right bottom no-repeat; 
+    text-align:left; 
+    }
+
+Page 358
+
+/* Declare body first of all */ 
+  body { 
+    background-color:#666; 
+    text-align:center; 
+    } 
+
+Page 360
+
+/* Declare body first of all */ 
+  body { 
+    background:#666; 
+    font:normal 62.5% 'Lucida Grande',Verdana,sans-serif; 
+    text-align:center; 
+    } 
+
+Page 360/361
+
+/* All headings and versions of */ 
+  h2, h3 { 
+    color:#FFF; 
+    } 
+  h2 { 
+    margin-top:40px; 
+    font-size:1.6em; 
+    } 
+  h3 { 
+    margin-top:30px; 
+    font-size:1.5em; 
+    }
+ h4 { 
+    font-size:1.3em; 
+    color:#FFE86C; 
+    }
+
+Page 361
+
+h2 a:link, h2 a:visited, h3 a:link, h3 a:visited { 
+  color:#FFF; 
+  } 
+h2 a:hover, h3 a:hover { 
+  color:#FFE86C; 
+} 
+
+Page 361
+
+/* The main column and descendants */ 
+  #mainCol { 
+    float:right; 
+    width:450px; 
+    font-size:1.1em; 
+    line-height:150%; 
+    color:#CCC; 
+    background:#211E0E url(back_rightcol.gif) no-repeat; 
+    text-align:left; 
+    } 
+
+Page 362
+
+#mainCol p { 
+  width:400px; 
+  } 
+
+Page 362
+
+<div id="masthead"> 
+  <h1><a href="deadgoods.html"><img src="dg_logo.gif" ~CCC 
+  alt="The Dead Goods" /></a></h1> 
+</div>
+
+Page 362
+
+/* Main Dead Goods logo */ 
+  #masthead img { 
+    margin:0 0 0 310px; 
+} 
+
+Page 363
+
+/* Turn off borders on image links */ 
+  img { 
+    border:0; 
+    } 
+
+Page 363/364
+
+#mainCol ul { 
+  list-style:none; 
+  margin:10px 0 10px 0; 
+  padding:0; 
+  } 
+#mainCol li { 
+  display:inline; 
+  margin:0 10px 0 0; 
+  padding:0; 
+  line-height:200%; 
+  } 
+#mainCol li a:link, #mainCol li a:visited { 
+  text-decoration:none; 
+  font-size:1.3em; 
+  font-weight:bold; 
+  color:#FFE86C; 
+  } 
+#mainCol li a:hover { 
+  color:#FFF; 
+  }
+
+Page 364
+
+/* Highlighting the current page */ 
+  #home #mainCol a.home { 
+    border-bottom:3px solid #FFE86C; 
+    }
+
+Page 365
+
+h4 { 
+  margin:550px 0 10px 56px; 
+  font-size:1.3em; 
+  color:#FFE86C; 
+  } 
+
+Page 365
+
+form { 
+  margin:0; 
+  padding:0; 
+  } 
+fieldset { 
+  border:0; 
+  margin:10px 0 10px 56px; 
+  padding:0; 
+  } 
+label { 
+  font-weight:bold; 
+  color:#FFE86C; 
+  } 
+input.submit { 
+  margin:0 0 30px 56px; 
+  } 
+
+Page 366
+
+#footer img { 
+  float:left; 
+  margin:10px 112px 60px 56px; 
+  } 
+
+Page 366/367
+
+#footer ul { 
+  list-style:none; 
+  margin:10px 0 0 0; 
+  padding:0; 
+  } 
+#footer li { 
+	  display:inline; 
+	  margin:0 10px 0 0; 
+	  padding:0; 
+	  line-height:160%; 
+	  } 
+	#footer li a:link, #footer li a:visited { 
+	  text-decoration:none; 
+	  font-weight:bold; 
+	  color:#FFE86C; 
+	  font-size:1em; 
+	  } 
+	#footer li a:hover { 
+	  color:#FFF; 
+	} 
+
+Page 367
+
+#footer p { 
+  margin:0 0 3px 0; 
+  }
+
+Page 367
+
+/* The footer and descendants */ 
+  #footer { 
+    clear:both; 
+    height:10em; 
+    min-height:110px; 
+    font-size:0.9em; 
+    line-height:150%; 
+    color:#FFE86C; 
+    background:#211E0E url(back_footer.gif) right bottom no-repeat; 
+    }
